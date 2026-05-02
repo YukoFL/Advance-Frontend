@@ -4,39 +4,39 @@ import { useState, useEffect } from "react";
 const response = {
   page: 1,
   results: [
-    {
+{
       userId: 1,
       id: 1,
       title: "Debate Erupts Among the Fingers as the House of Spider Falls",
-      body: "The House of Spider once the union of all Fingers has been found abandoned. Every representative lies dead. Only Ryoshu remains alive. Now, the Fingers must decide: is this a survivor… or the beginning of something far worse?",
+      body: "The House of Spider once the union of all Fingers has been found abandoned. Every representative lies dead. Only Ryoshu remains alive. Now, the Fingers must decide: is this a survivor… or the beginning of something far worse? ",
       image: "https://i.ibb.co.com/yF1WfZrd/image.png",
     },
     {
       userId: 1,
       id: 2,
       title: "Trailblazer Turns Evil? Aha's Lightsaber Sparks Dark Speculation",
-      body: "The Astral Express arrives at Planarcadia once more celebrated as heroes, destined to save the world. But this time, the Aeon Aha offers a strange gift: a lightsaber. A weapon of light… or a gateway to darkness?",
+      body: "The Astral Express arrives at Planarcadia once more celebrated as heroes, destined to save the world. But this time, the Aeon Aha offers a strange gift: a lightsaber. A weapon of light… or a gateway to darkness? Whispers begin to spread could the Trailblazer become the very thing they were meant to defeat… a Darth Raccoon?",
       image: "https://i.ibb.co.com/4RyQHrqG/image.png",
     },
     {
       userId: 1,
       id: 3,
       title: "Chubby Lung Supply Running Low?! Shortage Sparks Panic",
-      body: "In the aftermath of the Blight Tide contained by Tianshi Zhuang and her alliance with Endfield Industries a new variant of Chubby Lung has been released. But supplies are vanishing fast.",
+      body: "In the aftermath of the Blight Tide contained by Tianshi Zhuang and her alliance with Endfield Industries a new variant of Chubby Lung has been released. But supplies are vanishing fast. Is this shortage the result of overwhelming demand… or something more deliberate? Rumors swirl that Tianshi Zhuang may have secured millions of units for a secret, limited Endmin variant.",
       image: "https://i.ibb.co.com/JRWj9B3L/image.png",
     },
     {
       userId: 1,
       id: 4,
       title: "Lady Sunbringer Returns?! Sixth Street Sighting Sparks Speculation",
-      body: "Lady Sunbringer the genius behind Bangboo technology has reportedly resurfaced after a year long absence. Witnesses claim she was seen at a video store on Sixth Street wearing an uncharacteristically revealing outfit.",
+      body: "Lady Sunbringer the genius behind Bangboo technology and a Void Hunter has reportedly resurfaced after a year long absence. Witnesses claim she was seen at a video store on Sixth Street, wearing an uncharacteristically revealing outfit instead of her usual tactical gear. Coincidence… or calculated? Even more suspicious, Lieutenant Colonel Dan of the Falkenhayn mercenary troupe another Void Hunter was spotted interacting with the shop's owners. What is really unfolding behind the scenes?",
       image: "https://i.ibb.co.com/cX82ZF4g/image.png",
     },
     {
       userId: 1,
       id: 5,
       title: "Tragedy Unfolds: Outrage Grows Over Disrespectful Video",
-      body: "A devastating incident has left multiple victims and a shaken community. A video circulating online appears to mock the tragedy. Viewer discretion advised. https://youtu.be/xvFZjo5PgG0",
+      body: "A devastating incident has left multiple victims and a shaken community but outrage is now escalating for another reason. A video circulating online appears to mock the tragedy, triggering a wave of anger across social media. Many are calling it a serious breach of respect, demanding its immediate removal. As debate intensifies, one question remains: how far is too far? Viewer discretion strongly advised: the video contains offensive language and may be distressing. https://youtu.be/xvFZjo5PgG0",
       image: "https://i.ibb.co.com/CSKtWLJ/image.png",
     },
   ],
@@ -79,7 +79,7 @@ function Counter() {
 
   useEffect(() => {
     if (count !== 0 && count % 10 === 0) {
-      alert(`${count} — press more and something interesting might happen~ If you can, ehe!`);
+      alert(`${count} ? press more and something interesting might happen~ If you can, ehe!`);
     }
   }, [count]);
 
